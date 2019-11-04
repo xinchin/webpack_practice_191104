@@ -2,3 +2,9 @@
   color: red;
   font-size: 36px;
 }
+
+.img {
+  background: url('./user.png');
+  width: 225px;
+  height: 225px;
+}
