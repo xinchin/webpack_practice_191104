@@ -27,6 +27,11 @@ module.exports = {
         'css-loader'
       ]
     }, {
+      test: /\.(htm|html)$/,
+      use: [
+        'html-loader'
+      ]
+    }, {
       test: /\.(png|svg|jpg|gif)$/,
       use: [
         'file-loader',
