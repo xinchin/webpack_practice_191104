@@ -1,9 +1,3 @@
-> git init
-> npm init
-> npm install webpack webpack-cli webpack-dev-server --save-dev
-> npm install style-loader css-loader --save-dev
-
-
 const path = require('path');
 
 module.exports = {
